@@ -2,10 +2,23 @@
 //
 
 #include <iostream>
+#include <stdint.h>
+#include <stdio.h>
+using namespace std;
+
+struct Node {
+public:
+	int data;
+	Node* next;
+};
+
+Node* head;
+Node* tail;
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
