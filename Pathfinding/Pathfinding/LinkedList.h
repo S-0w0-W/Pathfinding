@@ -4,9 +4,12 @@
 class LinkedList
 {
 private:
-	Node* head, tail;
+	Node* head, *tail;
 public:
 	LinkedList();
 	int Insert(int data);
+	//int dequeue();
+	int Head();
+	int Tail();
 };
 

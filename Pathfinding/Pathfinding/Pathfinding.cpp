@@ -1,9 +1,9 @@
 // Pathfinding.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
 #include <iostream>
 #include <stdint.h>
 #include <stdio.h>
+#include "LinkedList.h"
 using namespace std;
 
 struct Node {
@@ -12,13 +12,20 @@ public:
 	Node* next;
 };
 
-Node* head;
-Node* tail;
+void bfs() {
+
+ 
+}
 
 
 int main()
 {
-    cout << "Hello World!\n";
+    LinkedList test;
+    test.Insert(1);
+    test.Insert(2);
+    cout << test.Head();
+    cout << test.Tail();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

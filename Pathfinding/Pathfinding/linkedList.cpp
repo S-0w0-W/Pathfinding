@@ -1,6 +1,8 @@
 #include <stdint.h>
 #include <stdio.h>
 #include "LinkedList.h"
+using namespace std;
+
 
 LinkedList::LinkedList() {
 	head = NULL;
@@ -28,3 +30,10 @@ int LinkedList::Insert(int n)
 }
 
 
+int LinkedList::Head() {
+    return head->data;
+}
+
+int LinkedList::Tail() {
+    return tail->data;
+}
