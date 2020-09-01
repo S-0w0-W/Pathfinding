@@ -6,12 +6,6 @@
 #include "LinkedList.h"
 using namespace std;
 
-struct Node {
-public:
-	int data;
-	Node* next;
-};
-
 void bfs() {
 
  
@@ -21,10 +15,28 @@ void bfs() {
 int main()
 {
     LinkedList test;
-    test.Insert(1);
+    LinkedList test1;
+    test.Insert(0);
     test.Insert(2);
-    cout << test.Head();
-    cout << test.Tail();
+    test.Insert(6);
+    test.Insert(13);
+    test.Insert(56);
+    test.Insert(4);
+
+    //cout << test.Head()->data;
+    //cout << test.Tail()->data;
+    //cout << test.Next(test.Head())->data;
+    //cout << test.Prev(test.Tail())->data;
+    //cout << test.Size();
+
+    test.Print();
+    cout << test.Find(4);
+    cout << "\n";
+    cout << test.Dequeue();
+    cout << "\n";
+    cout << test.Size();
+    cout << "\n";
+    test.Print();
     return 0;
 }
 
@@ -38,3 +50,40 @@ int main()
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
+
+//int LinkedList::Dequeue() {
+//    int data;
+//
+//    if (head == NULL)
+//    {
+//        return -1;
+//    }
+//    else
+//    {
+//        data = head->data;
+//        head = head->next;
+//        head->prev->next = NULL;
+//        head->prev = NULL;
+//        return data;
+//    }
+//
+//    return -1;
+//}
+//
+//void LinkedList::Print() {
+//    Node* curr = new Node;
+//    curr = head;
+//    if (head == NULL) {
+//        delete curr;
+//    }
+//    else {
+//        cout << curr->data;
+//        while (curr->next != NULL) {
+//            curr = curr->next;
+//            cout << curr->data;
+//        }
+//        cout << "\n";
+//        delete curr;
+//    }
+//}

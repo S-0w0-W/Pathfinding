@@ -1,21 +1,4 @@
 ﻿  Pathfinding.cpp
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(18,5): error C2065: 'LinkedList': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(18,16): error C2146: syntax error: missing ';' before identifier 'test'
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(18,16): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(19,5): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(20,5): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(21,13): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(22,13): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(9,13): error C2011: 'Node': 'struct' type redefinition
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(9): message : see declaration of 'Node'
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(16,5): error C2084: function 'int main(void)' already has a body
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(16): message : see previous definition of 'main'
   linkedList.cpp
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(18,5): error C2065: 'LinkedList': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(18,16): error C2146: syntax error: missing ';' before identifier 'test'
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(18,16): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(19,5): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(20,5): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(21,13): error C2065: 'test': undeclared identifier
-D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Pathfinding\Pathfinding.cpp(22,13): error C2065: 'test': undeclared identifier
   Generating Code...
+  Pathfinding.vcxproj -> D:\2020\UNI\Sem2\COMPSYS301\project\pathfinding\Pathfinding\Debug\Pathfinding.exe
