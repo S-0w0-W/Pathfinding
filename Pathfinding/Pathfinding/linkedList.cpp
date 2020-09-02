@@ -85,6 +85,7 @@ void LinkedList::Print() {
 
     while (curr != NULL) {
         cout << curr->data;
+        cout << " ";
         curr = curr->next;
     }
     cout << "\n";
@@ -107,4 +108,35 @@ int LinkedList::Find(int x) {
         }
     }
     return -1;
+}
+
+int* LinkedList::Return(Node* x) {
+
+    int arr[100];
+    int count = 0;
+
+    struct Node* curr = x;
+
+    while (curr != NULL) {
+        arr[count] = curr->data;
+        cout << arr[count];
+        cout << " ";
+        curr = curr->prev;
+        count++;
+    }
+
+    return arr;
+}
+
+Node* LinkedList::Pop(int x) {
+    struct Node* curr = head;
+
+    while (curr != NULL) {
+        if (curr->data == x) {
+            return curr;
+        }
+        curr = curr->next;
+    }
+
+    return NULL;
 }

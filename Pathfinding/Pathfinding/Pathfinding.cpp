@@ -23,20 +23,28 @@ int main()
     test.Insert(56);
     test.Insert(4);
 
+    //cout << test.Prev(test.Pop(13))->data;
+
+    int* a = test.Return(test.Pop(13));
+    cout << a[0];
+    
+
     //cout << test.Head()->data;
     //cout << test.Tail()->data;
     //cout << test.Next(test.Head())->data;
     //cout << test.Prev(test.Tail())->data;
     //cout << test.Size();
 
-    test.Print();
-    cout << test.Find(4);
-    cout << "\n";
-    cout << test.Dequeue();
-    cout << "\n";
-    cout << test.Size();
-    cout << "\n";
-    test.Print();
+    //test.Print();
+    //cout << test.Find(4);
+    //cout << "\n";
+    //cout << test.Dequeue();
+    //cout << "\n";
+    //cout << test.Size();
+    //cout << "\n";
+    //test.Print();
+
+
     return 0;
 }
 

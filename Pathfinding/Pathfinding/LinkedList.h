@@ -22,4 +22,6 @@ public:
 	int Size();					// Returns the size of the list
 	void Print();				// Prints out data of list
 	int Find(int x);			// Returns the index(starting from 1) of input integer, returns -1 if not found
+	int* Return(Node* x);		// Returns a pointer to array of integer of node data back to the start starting from input node
+	Node* Pop(int x);			// Returns a Pointer to the Node which has the data of input integer
 };
