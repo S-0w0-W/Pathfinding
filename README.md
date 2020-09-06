@@ -20,7 +20,7 @@ Function implementation on in BFS.cpp file
     - col int
   - target location:
     - row int
-    - col int 
+    - col int \n
 **Output:**
   - 2 arrays:
     - row array
