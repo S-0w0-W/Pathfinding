@@ -27,6 +27,6 @@ Function implementation on in BFS.cpp file
     - row array
     - col array
 ### Visual representation:
-start location = [1, 1]
+start location = [1, 1]\
 target location = [1, 17]
 ![test1](/images/test1.JPG)
