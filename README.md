@@ -11,7 +11,7 @@ Function implementation on in BFS.cpp file
 ### Results
 *Tested using Pathfinding.cpp(main)*
 
-**Input required:**
+**Input:**
   - 2d array of map
     - 1 = wall/obsticals
     - 0 = empty path
