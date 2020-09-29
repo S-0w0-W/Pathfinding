@@ -60,7 +60,7 @@ int LinkedList::Size() {
     return count;
 }
 
-Node* LinkedList::Dequeue() {
+Node* LinkedList::DequeueHead() {
     //int data;
     struct Node* temp = head;
 
@@ -74,6 +74,26 @@ Node* LinkedList::Dequeue() {
         head = head->next;
         head->prev->next = NULL;
         head->prev = NULL;
+        return temp;
+    }
+
+    return NULL;
+}
+
+Node* LinkedList::DequeueTail() {
+    //int data;
+    struct Node* temp = tail;
+
+    if (tail == NULL)
+    {
+        return NULL;
+    }
+    else
+    {
+        //data = head->data;
+        tail = tail->prev;
+        tail->next->prev = NULL;
+        tail->next = NULL;
         return temp;
     }
 
@@ -121,19 +141,60 @@ int* LinkedList::Return(Node* x) {
 
     while (curr != NULL) {
         arr[count] = curr->data;
-        cout << arr[count];
-        cout << " ";
+        //cout << arr[count];
+        //cout << " ";
         curr = curr->prev;
         count++;
     }
     /*arr[count] = count;
     cout << arr[count];*/
-    cout << "\n";
+    //cout << "\n";
 
     return arr;
 }
 
+int* LinkedList::ReturnReverse(Node* x) {
 
+    struct Node* curr = head;
+    int* arr = NULL;
+    arr = new int[200];
+    int count = 0;
+
+    while (curr != NULL) {
+        //cout << curr->data;
+        //cout << " ";
+        arr[count] = curr->data;
+        curr = curr->next;
+        count++;
+    }
+    //cout << "\n";
+
+    //int* arr = NULL;
+    //arr = new int[200];
+    //int* orgArr = NULL;
+    //orgArr = new int[200];
+    //int count = 0;
+    //int arrCount = 0;
+
+    //struct Node* curr = x;
+
+    //while (curr != NULL) {
+    //    orgArr[count] = curr->data;
+    //    curr = curr->prev;
+    //    count++;
+    //}
+
+    //for (int i = count; i > 0; i--) {
+    //    arr[arrCount] = orgArr[count];
+    //    //cout << arr[arrCount];
+    //    cout << orgArr[count];
+    //    cout << " ";
+    //    arrCount++;
+    //}
+    //cout << "\n";
+
+    return arr;
+}
 
 
 Node* LinkedList::Pop(int x) {
