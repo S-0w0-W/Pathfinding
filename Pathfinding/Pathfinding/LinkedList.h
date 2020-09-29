@@ -36,6 +36,7 @@ public:
     void Print();                // Prints out data of list
     int Find(int x);            // Returns the index(starting from 1) of input integer, returns -1 if not found
     int* Return(Node* x);        // Returns a pointer to array of integer of node data back to the start starting from input node
+    int* ReturnReverse(Node* x); // same as Return() function but the array is reversed in order
     Node* Pop(int x);            // Returns a Pointer to the first Node which has the data of input integer starting from head
     Node* Popindx(int x);            // Returns a Pointer to the Node which has the data of input integer
 };
